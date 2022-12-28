@@ -25,7 +25,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 
 <p align="center">
-<img src="https://i.imgur.com/Cxy8NM7.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/f1eRIx4.png" height="50%" width="45%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/Cxy8NM7.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/f1eRIx4.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
 
@@ -38,7 +38,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
     - For the example, we will be using RG-Lab-1 for the name and (US) West 3 for the region
 
 <p align="center">
-<img src="https://i.imgur.com/SGY8EwH.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSKUJHX.png" height="50%" width="45%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/SGY8EwH.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSKUJHX.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
 <h3>Step 3: Create a storage Account</h3>
@@ -51,7 +51,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 - Select review, then create.
 
 <p align="center">
-<img src="https://i.imgur.com/Ed9wc2j.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/7ryNBQg.png" height="50%" width="45%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/Ed9wc2j.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/7ryNBQg.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
 
@@ -64,7 +64,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
     - Use same resource group and region as step 2/3
 
 <p align="center">
-<img src="https://i.imgur.com/doboysy.png" height="65%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/yM3IRWC.png" height="65%" width="45%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/doboysy.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/yM3IRWC.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
  
 
@@ -80,7 +80,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 
 <p align="center">
-<img src="https://i.imgur.com/QhE5p74.png" height="60%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/I5yvFc4.png" height="50%" width="45%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/QhE5p74.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/I5yvFc4.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
  
      
@@ -100,27 +100,23 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
    - Paste IP address and select Add
    - Double click on the virtual machine and enter username and password from step 4
    - Click continue
-   
-
-In order to connect to the virtual machine, first you need the public IP address. You can find this on the right hand side of this menu.
-
-<p align="center">
-<img src="https://i.imgur.com/gT6F62H.png" height="80%" width="80%" alt="SampleVM menu with arrow and circle"/>
-</p>
-
-Once Microsoft Remote Desktop is downloaded, open the application. Click add PC. Copy and paste the public IP address of the virtual machine that was created when prompted. Type in the username and password the click connect. 
-
-<p align="center">
-<img src="https://i.imgur.com/WcRdlX3.png" height="80%" width="80%" alt="Microsoft Remote Desktop 1"/>
+     
+     
+ <p align="center">
+<img src="https://i.imgur.com/14pPOdv.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/okabWbT.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/4IKJFik.png" height="80%" width="80%" alt="Windows 10 VM"/>
-</p>
+<img src="https://i.imgur.com/okabWbT.png" height="60%" width="60%" alt="Azure Free Account"/>
 
-Congratulations! You have created your first virtual machine within Azure. If you want to save your free $200 credits, make sure you delete ALL resource groups because most of Azure services are pay as you go (unless otherwise stated). Thank you!
 
+
+🎉Congratulations! You have created your first virtual machine within Azure!🎉
 
 <p align="center">
-<img src="https://i.imgur.com/SGY8EwH.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSKUJHX.png" height="50%" width="45%" alt="Azure Free Services"/>
-</p>
+<img src="https://i.imgur.com/rEBpL8Y.png" height="80%" width="80%" alt="Azure Free Account"/>
+
+<h3>Tip</h3>
+
+-  If you want to save your free $200 credits, make sure you delete ALL resource groups after finishing!    
+  
