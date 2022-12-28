@@ -14,21 +14,20 @@ Microsoft Azure is a cloud platform that will let you rent space in order to sto
 
 
 <h3>Step 1: Create Azure Account</h3>
-First step is to create an Azure account. You can create an account with $200 of free credit for a month. 
 
-<br>
-<br>
 
 Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
+- Select Start Free
+- Follow the prompt to create the account. 
+     - You will need to put in your credit card information but you will get $200 worth of Azure credit and will have 30 days to use those credits. You will not be charged until then.
+- Finish prompt, click Go to Azure Portal and you are ready to start with Azure!
+     - You may also go to [portal.azure.com](https://www.portal.azure.com) to start
+
 
 <p align="center">
-<img src="https://i.imgur.com/8NgUUZu.png" height="80%" width="80%" alt="Azure Free Account"/>
-  
-<p align="center">
-<img src="https://i.imgur.com/mSLAKSQ.png" height="80%" width="80%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/rZNc4Ho.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/pEhVTc1.png" height="50%" width="45%" alt="Azure Free Services"/>
 </p>
 
-Follow all the prompts to create the account. A credit card will be needed but will not be charged until the $200 credit runs out or the account has been active for a month. After you create your account, you are now a tenant in Azure!
 
 <h3>Step 2: Azure portal and resource groups</h3>
 
