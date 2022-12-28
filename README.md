@@ -25,49 +25,82 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 
 <p align="center">
-<img src="https://i.imgur.com/rZNc4Ho.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/pEhVTc1.png" height="50%" width="45%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/Cxy8NM7.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/f1eRIx4.png" height="50%" width="45%" alt="Azure Free Services"/>
 </p>
 
 
-<h3>Step 2: Azure portal and resource groups</h3>
+<h3>Step 2: Create Resource Group</h3>
 
-Now that the account has been created, let's go over how to navigate the Azure portal. The portal is where you can find all the products/resources and manage your subscriptions. It is a user friendly interface.
-
-The portal is located [here](https://www.portal.azure.com).
+- Go to search bar at the top and search "resource group"
+- Select create resource group
+- You will then need to name the resource group and select the region 
+- Select review + create
+    - For the example, we will be using RG-Lab-1 for the name and (US) West 3 for the region
 
 <p align="center">
-<img src="https://i.imgur.com/8JnxniW.png" height="80%" width="80%" alt="Azure Portal with RG Arrow"/>
+<img src="https://i.imgur.com/SGY8EwH.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSKUJHX.png" height="50%" width="45%" alt="Azure Free Services"/>
 </p>
 
-In order to utilize some of the services in Azure, a resource group needs to be created. Resource groups store all resources that you are utilizing in Azure. This example will show how to deploy a Windows 10 virtual machine.
+<h3>Step 3: Create a storage Account</h3>
+
+- Go to search bar and search "storage account"
+- Select Create storage account
+- You will need to select the resource group, the region, and create a name for the storage group
+    - For the example we will name the storage group rglab1
+    - Use same resource group and region as step 2
+- Select review, then create.
 
 <p align="center">
-<img src="https://i.imgur.com/x5P8pDQ.png" height="80%" width="80%" alt="Azure Resource Groups with circle"/>
+<img src="https://i.imgur.com/Ed9wc2j.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/7ryNBQg.png" height="50%" width="45%" alt="Azure Free Services"/>
 </p>
 
-When ready, click create resource groups. From there, you will need to name your resource group and select the region. The region will determine which Azure data center will be utilize. (US) West 3 was chosen for this example. Click "Review + Create" once finished
+
+<h3>Step 4: Create Virtual Machine</h3>
+     
+- Go to search bar and search "virtual machine"
+- Select create, then select Azure virtual machine
+- You will need to select the resource group, the region, and create a name for the virtual machine
+    - For the example we will name the virtual machine virtualmachine
+    - Use same resource group and region as step 2/3
 
 <p align="center">
-<img src="https://i.imgur.com/4ZY0Twp.png" height="80%" width="80%" alt="Create Azure Resource Groups"/>
+<img src="https://i.imgur.com/doboysy.png" height="65%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/yM3IRWC.png" height="65%" width="45%" alt="Azure Free Services"/>
 </p>
+ 
 
-<h3>Step 3: Create a virtual machine</h3>
-Next step is to create a virtual machine. At the portal, click on virtual machine and click create. Once at the create virtual machine menu, follow all the instructions. Make sure to fill out all the areas that have a red asterisk on them (resource group, name, etc.). Don't worry about the other tabs such as disks and networking as they will be prefilled. Make sure you remember the username and password! Once this is all completed, your virtual machine will appear in your resource group. 
+
+
+* You will then need to select image and size
+    - For image we will use Windows 10 Pro
+    - For size, select see all sizes and select Standard D2as_v4
+* You will then need to make a username and password
+    - For username, we will use labuser
+    - Create your own password
+* Click the box under licensing and finally click Review + Create 
+
 
 <p align="center">
-<img src="https://i.imgur.com/XC53r2o.png" height="80%" width="80%" alt="Virtual Machine Menu with arrow"/>
+<img src="https://i.imgur.com/QhE5p74.png" height="60%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/I5yvFc4.png" height="50%" width="45%" alt="Azure Free Services"/>
 </p>
+ 
+     
+
+<h3>Step 5: Connect to Virtual Machine</h3>
+
+- First you will need to find the Public IP address of your virtual machine
+   - Select the virtual machhine we created in step and the IP address will be on the right hand side 
+   - Copy the IP address
 
 <p align="center">
-<img src="https://i.imgur.com/a0OIYax.png" height="80%" width="80%" alt="Create Virtual Machine"/>
-</p>
+<img src="https://i.imgur.com/nOv1FP1.png" height="80%" width="80%" alt="Azure Free Account"/>
 
-<h3>Step 4: Connect to virtual machine using Microsoft Remote Desktop on macOS</h3>
-The final step to this process is accessing the virtual machine using Microsoft Remote Desktop. If you are using macOS (like me), you have to download the application in the App Store. 
-
-<p align="center">
-<img src="https://i.imgur.com/pp1yQTE.png" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
-</p>
+* Mac Users 
+   - Download Microsoft Remote Desktop
+   - Open application and click add PC
+   - Paste IP address and select Add
+   - Double click on the virtual machine and enter username and password from step 4
+   - Click continue
+   
 
 In order to connect to the virtual machine, first you need the public IP address. You can find this on the right hand side of this menu.
 
@@ -86,3 +119,8 @@ Once Microsoft Remote Desktop is downloaded, open the application. Click add PC.
 </p>
 
 Congratulations! You have created your first virtual machine within Azure. If you want to save your free $200 credits, make sure you delete ALL resource groups because most of Azure services are pay as you go (unless otherwise stated). Thank you!
+
+
+<p align="center">
+<img src="https://i.imgur.com/SGY8EwH.png" height="50%" width="45%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSKUJHX.png" height="50%" width="45%" alt="Azure Free Services"/>
+</p>
