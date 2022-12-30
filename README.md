@@ -38,7 +38,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
     - For the example, we will be using RG-Lab-1 for the name and (US) West 3 for the region
 
 <p align="center">
-<img src="https://i.imgur.com/SGY8EwH.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSKUJHX.png" height="70%" width="70%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/Afnk87u.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/yBBln5a.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
 <h3>Step 3: Create a storage Account</h3>
@@ -51,7 +51,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 - Select review, then create.
 
 <p align="center">
-<img src="https://i.imgur.com/Ed9wc2j.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/7ryNBQg.png" height="70%" width="70%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/zhb3GHZ.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/7ryNBQg.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
 
@@ -64,7 +64,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
     - Use same resource group and region as step 2/3
 
 <p align="center">
-<img src="https://i.imgur.com/doboysy.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/yM3IRWC.png" height="70%" width="70%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/y0RafHM.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/PCJ3QAr.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
  
 
@@ -80,7 +80,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 
 <p align="center">
-<img src="https://i.imgur.com/QhE5p74.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/I5yvFc4.png" height="70%" width="70%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/p9UJXND.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/GHBDae0.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
  
      
@@ -92,22 +92,28 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
    - Copy the IP address
 
 <p align="center">
-<img src="https://i.imgur.com/nOv1FP1.png" height="80%" width="80%" alt="Azure Free Account"/>
+<img src="https://i.imgur.com/T4Oc2RX.png" height="80%" width="80%" alt="Azure Free Account"/>
 
 * Mac Users 
    - Download Microsoft Remote Desktop
    - Open application and click add PC
    - Paste IP address and select Add
    - Double click on the virtual machine and enter username and password from step 4
-   - Click continue
+   - Select continue
+   
+*Windows Users
+     - Open and use Remote Desktop
+     - Paste IP Address and select Connect
+     - Enter username and password from step 4
+     - Select OK
+  
      
      
  <p align="center">
-<img src="https://i.imgur.com/14pPOdv.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/okabWbT.png" height="70%" width="70%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/14pPOdv.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/Og3LKyd.png" height="70%" width="70%" alt="Azure Free Services"/>
 </p>
 
-<p align="center">
-<img src="https://i.imgur.com/okabWbT.png" height="60%" width="60%" alt="Azure Free Account"/>
+
 
 
 
