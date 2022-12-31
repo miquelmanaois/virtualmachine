@@ -101,7 +101,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
    - Double click on the virtual machine and enter username and password from step 4
    - Select continue
    
-*Windows Users
+* Windows Users
      - Open and use Remote Desktop
      - Paste IP Address and select Connect
      - Enter username and password from step 4
